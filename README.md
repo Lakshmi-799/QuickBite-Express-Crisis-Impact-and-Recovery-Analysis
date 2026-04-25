@@ -148,3 +148,19 @@ Geographic Epicenter: Bengaluru saw the highest impact, contributing 33.18% of t
 ◆ Priority 3: Quality Control: Terminate the bottom 5% of restaurants (e.g., Kolkata Paratha Central, Sri Thali Clouds) who consistently drove the "Food Safety" complaints.
 
 ◆ Priority 4: Trust Rebuilding: Launch a "Safety First" campaign targeting the 47K Positive Review leavers who churned solely due to the June outage.
+---
+## 📂 How to Explore
+
+Open the QuickBite_Crisis_Analysis.pbix file.
+
+Navigate using the custom Sidebar:
+
+Home: Overview of the crisis narrative.
+
+Business Overview: Financial and volume trends.
+
+Customer Analysis: Churn and retention deep-dives.
+
+Delivery Analysis: SLA and Logistics performance.
+
+Reviews & Rating: Qualitative sentiment breakdown.
