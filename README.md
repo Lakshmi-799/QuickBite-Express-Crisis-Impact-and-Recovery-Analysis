@@ -93,26 +93,39 @@ crisis to:
 The "**June Cliff**": Monthly revenue dropped from a peak of **7.8M (March) to 2.9M ** in June, failing to recover through September.
 
 Geographic Epicenter: Bengaluru saw the highest impact, contributing 33.18% of total orders but suffering the highest volume of churn (15,170 customers).
+
 **2. Customer Sentiment & Churn**
-**Customer Base: **Total of 105K unique customers, with 87K active Pre-Crisis and only 32K during the Crisis.
+
+**Customer Base:** Total of 105K unique customers, with 87K active Pre-Crisis and only 32K during the Crisis.
 
 **Top Complaint Categories:**
+
    Food Safety Issue: 472 reports.
+   
    Bad Taste: 326 reports.
+
    Late Deliveries: 321 reports.
+   
    Sentiment Shift: Avg Sentiment Score crashed from 0.89 (Pre-Crisis) to -0.18 (Crisis).
    
 **3. Operational Bottlenecks**
+
 **SLA Avg Delay:** 12.35 minutes (reaching a peak of 20.74 mins in June).
+
 **Cancellation Rate**: Stabilized at 7.4%, with Ahmedabad and Bengaluru showing the highest volatility.
-**Vehicle Performance: ** Cars showed the lowest SLA compliance (17.8%), while Bikes and Scooters remained slightly more resilient (~21%).
+
+**Vehicle Performance:** Cars showed the lowest SLA compliance (17.8%), while Bikes and Scooters remained slightly more resilient (~21%).
 
 **4. Restaurant Partner Risk**
-**Risk Distribution:**  56.7% of partners are now classified as High Risk.
-**Partner Exodus: ** Total of 11.4K partners analyzed, with a significant portion of "Active Customers" dropping off in major hubs like Mumbai and Delhi.
+
+**Risk Distribution:** 56.7% of partners are now classified as High Risk.
+
+**Partner Exodus:** Total of 11.4K partners analyzed, with a significant portion of "Active Customers" dropping off in major hubs like Mumbai and Delhi.
+
 ---
 ## 🛠️ Methodology & Technical Implementation
 **The Analytical Framework**
+
 **1.Phase Segmentation:** Used DAX to bifurcate data into Pre-crisis and Crisis phases based on the June 1st cutoff.
 
 **2. SLA Analysis:** Calculated SLA Compliance % by comparing actual delivery time vs. promised time.
@@ -120,11 +133,12 @@ Geographic Epicenter: Bengaluru saw the highest impact, contributing 33.18% of t
 **3. Sentiment Quantization:** Transformed 69K reviews into a sentiment index scale of -1 to 1.
 
 **Key DAX Metrics Used**
-** ◆ Drop %:** (Pre-Crisis Orders - Crisis Orders) / Pre-Crisis Orders
+
+**◆ Drop %:** (Pre-Crisis Orders - Crisis Orders) / Pre-Crisis Orders
 
  **◆ SLA Compliance:** Percentage of orders delivered within the promised window.
  
-** ◆ Customer Status: ** Categorized users as Churned (Pre-Crisis but NOT Crisis) vs. Retained (Both phases).
+**◆ Customer Status:** Categorized users as Churned (Pre-Crisis but NOT Crisis) vs. Retained (Both phases).
 
 ## 💡 Strategic Recommendations
 ◆ Priority 1: The "Bengaluru Recovery": Focus 40% of the recovery budget on Bengaluru, as it holds the highest density of "Recoverable" churned customers.
