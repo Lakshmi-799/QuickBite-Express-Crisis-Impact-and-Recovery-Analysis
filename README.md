@@ -101,12 +101,14 @@ Geographic Epicenter: Bengaluru saw the highest impact, contributing 33.18% of t
    Bad Taste: 326 reports.
    Late Deliveries: 321 reports.
    Sentiment Shift: Avg Sentiment Score crashed from 0.89 (Pre-Crisis) to -0.18 (Crisis).
+   
 **3. Operational Bottlenecks**
 **SLA Avg Delay:** 12.35 minutes (reaching a peak of 20.74 mins in June).
 **Cancellation Rate**: Stabilized at 7.4%, with Ahmedabad and Bengaluru showing the highest volatility.
 **Vehicle Performance: ** Cars showed the lowest SLA compliance (17.8%), while Bikes and Scooters remained slightly more resilient (~21%).
+
 **4. Restaurant Partner Risk**
-**Risk Distribution:** 56.7% of partners are now classified as High Risk.
+**Risk Distribution:**  56.7% of partners are now classified as High Risk.
 **Partner Exodus: ** Total of 11.4K partners analyzed, with a significant portion of "Active Customers" dropping off in major hubs like Mumbai and Delhi.
 ---
 ## 🛠️ Methodology & Technical Implementation
@@ -119,10 +121,16 @@ Geographic Epicenter: Bengaluru saw the highest impact, contributing 33.18% of t
 
 **Key DAX Metrics Used**
 ** ◆ Drop %:** (Pre-Crisis Orders - Crisis Orders) / Pre-Crisis Orders
+
  **◆ SLA Compliance:** Percentage of orders delivered within the promised window.
+ 
 ** ◆ Customer Status: ** Categorized users as Churned (Pre-Crisis but NOT Crisis) vs. Retained (Both phases).
+
 ## 💡 Strategic Recommendations
 ◆ Priority 1: The "Bengaluru Recovery": Focus 40% of the recovery budget on Bengaluru, as it holds the highest density of "Recoverable" churned customers.
+
 ◆ Priority 2: Operational Redundancy: Since Cars failed significantly during the crisis (17.8% SLA), shift the fleet mix toward 2-wheelers for better urban agility.
+
 ◆ Priority 3: Quality Control: Terminate the bottom 5% of restaurants (e.g., Kolkata Paratha Central, Sri Thali Clouds) who consistently drove the "Food Safety" complaints.
+
 ◆ Priority 4: Trust Rebuilding: Launch a "Safety First" campaign targeting the 47K Positive Review leavers who churned solely due to the June outage.
