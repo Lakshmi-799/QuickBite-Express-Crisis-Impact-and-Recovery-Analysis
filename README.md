@@ -48,3 +48,41 @@ A data-driven ₹70-80M recovery roadmap with 4 strategic pillars, expected
 to achieve 80-90% recovery within 6-9 months with 3-4x ROI on reactivation.
 
 ---
+## 💼 Problem Statement
+
+### Business Challenge
+
+QuickBite Express requires a comprehensive analysis of its June-September 2025 
+crisis to:
+
+1. **Understand Crisis Severity:** Quantify impact across all business metrics
+2. **Identify Root Causes:** Determine what triggered the cascade of failures
+3. **Customer Impact Analysis:** Segment churned customers by recovery probability
+4. **Competitive Context:** Benchmark against industry peers during crisis
+5. **Recovery Strategy:** Design a data-backed turnaround plan with timelines & ROI
+6. **Operational Insights:** Identify systemic vulnerabilities to prevent recurrence
+
+### Analysis Questions Addressed
+**Primary Analysis (10 questions):**
+1. Monthly order decline comparison (pre-crisis vs crisis)
+2. Top 5 cities by order decline percentage
+3. Top 10 high-volume restaurants with largest decline
+4. Cancellation rate trend analysis and geographic impact
+5. Delivery SLA performance degradation
+6. Monthly customer rating fluctuations
+7. Negative keyword sentiment analysis
+8. Revenue impact quantification
+9. Loyalty impact on 5+ order customers with 4.5+ ratings
+10. High-value customer (top 5%) decline patterns
+---
+### Data Sources
+
+| Data Type | Source | Time Period | Records | Key Metrics |
+|-----------|--------|-------------|---------|------------|
+| **Orders** | QuickBite transactional DB | Jan-Sep 2025 | 149K orders | order_id, customer_id, order_date, order_total, phase |
+| **Customers** | CRM system | Jan-Sep 2025 | 105K customers | customer_id, acquisition_date, total_spend, LTV |
+| **Reviews & Ratings** | Review system | Jan-Sep 2025 | 48K reviews | rating, sentiment, review_text, date |
+| **Restaurant Data** | Partner DB | Jan-Sep 2025 | 20K restaurants | restaurant_id, cuisine_type, order_count, status |
+| **Operational Metrics** | Delivery/Operations DB | Jan-Sep 2025 | Daily logs | delivery_time, sla_compliance, cancellations, delays |
+
+
