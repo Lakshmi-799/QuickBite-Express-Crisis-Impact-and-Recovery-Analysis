@@ -86,7 +86,21 @@ crisis to:
 | **Restaurant Data** | Partner DB | Jan-Sep 2025 | 20K restaurants | restaurant_id, cuisine_type, order_count, status |
 | **Operational Metrics** | Delivery/Operations DB | Jan-Sep 2025 | Daily logs | delivery_time, sla_compliance, cancellations, delays |
 ---
-## 📊 Key Findings (From the Data)**
+## 📊 Key Findings (From the Data)
+
+### Crisis Impact Summary
+
+| Metric | Pre-Crisis | Crisis | Change | % Change |
+|--------|-----------|--------|--------|----------|
+| Monthly Orders | 24,000 | 9,000 | -15,000 | -62.5% |
+| Monthly Revenue | ₹7.6M avg | ₹2.75M avg | -₹4.85M | -63.8% |
+| Total Revenue (period) | ₹38M | ₹11M | -₹27M | -71% |
+| Active Customers | 100,000 | 27,000 | -73,000 | -73% |
+| Avg Rating | 4.55 stars | 2.30 stars | -2.25 | -49% |
+| SLA Compliance | 44% | 12% | -32% | -73% |
+| Avg Delivery Time | 40 min | 60 min | +20 min | +50% |
+| Cancellation Rate | 6.2% | 11.6% | +5.4% | +87% |
+
 **1. Business Overview & Revenue Erosion**
 **Total Orders:** 149K (Cumulative).
 
@@ -148,19 +162,67 @@ Geographic Epicenter: Bengaluru saw the highest impact, contributing 33.18% of t
 ◆ Priority 3: Quality Control: Terminate the bottom 5% of restaurants (e.g., Kolkata Paratha Central, Sri Thali Clouds) who consistently drove the "Food Safety" complaints.
 
 ◆ Priority 4: Trust Rebuilding: Launch a "Safety First" campaign targeting the 47K Positive Review leavers who churned solely due to the June outage.
+
 ---
-## 📂 How to Explore
+# 🛠️ Technical Implementation
 
-Open the QuickBite_Crisis_Analysis.pbix file.
+### Tools & Technologies Used
 
-Navigate using the custom Sidebar:
+**Data Visualization:**
+- **Power BI Desktop:** Interactive dashboards, 6 comprehensive pages
+- **Visual Types:** Cards, charts, tables, donut charts, heatmaps, slicers
+- **DAX Functions:** CALCULATE, SWITCH, IF, DIVIDE, DISTINCTCOUNT, SUMMARIZE
 
-Home: Overview of the crisis narrative.
+**Data Analysis:**
+- **DAX Measures:** 50+ custom measures for segmentation, risk scoring, ROI
+- **Calculations:** Statistical aggregations, trend analysis, probability scoring
+- **Modeling:** Customer lifetime value, churn probability, recovery potential
 
-Business Overview: Financial and volume trends.
+  ---
+  ### Dashboard Structure
 
-Customer Analysis: Churn and retention deep-dives.
+**Page 1: Home**
+- Quick navigation to all analysis sections
+<img width="1907" height="920" alt="image" src="https://github.com/user-attachments/assets/7a7c6d15-312e-42d2-82b2-7ffb5b86bbf8" />
 
-Delivery Analysis: SLA and Logistics performance.
+**Page 2: Executive Summary**
+- KPI cards: Total orders, revenue, rating, cancellations
+- Key metrics highlighted
+- Monthly revenue trend
+- Order volume comparison
+- Top affected cities
+- Revenue breakdown by component
+<img width="1917" height="922" alt="image" src="https://github.com/user-attachments/assets/abf48957-22a2-447c-a826-74ab4400b5e2" />
 
-Reviews & Rating: Qualitative sentiment breakdown.
+
+
+**Page 3: Customer Impact Analysis**
+- Customer segmentation donut
+- City distribution
+- Customer status breakdown
+- High-value customer impact
+  <img width="1916" height="926" alt="image" src="https://github.com/user-attachments/assets/20d06770-f9fb-4770-be9c-6dfc03b8a69e" />
+
+
+**Page 4: Top 5% Spent Customer Impact**
+- VIP customer metrics
+- Order frequency trends
+- Geographic and cuisine preferences
+- Monthly spending patterns
+  <img width="1918" height="925" alt="image" src="https://github.com/user-attachments/assets/2b923064-638f-472a-bce9-e7273809904e" />
+
+
+**Page 5: Operational Performance**
+- SLA compliance trends
+- Delivery time analysis
+- Cancellation rates by city/vehicle
+- Monthly operational metrics table
+  <img width="1920" height="912" alt="image" src="https://github.com/user-attachments/assets/79b4a10b-d99a-4bd5-a44f-90b9588c658c" />
+
+
+**Page 6: Restaurant Partnership Analysis**
+- Partner count by city
+- Restaurant retention rates
+- Cuisine-wise order comparison
+- Restaurant risk categorization
+  <img width="1916" height="906" alt="image" src="https://github.com/user-attachments/assets/dc7cb11b-d097-45a2-a01b-80e93212efac" />
