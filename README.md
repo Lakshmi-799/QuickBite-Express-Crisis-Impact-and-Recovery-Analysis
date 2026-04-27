@@ -186,43 +186,45 @@ Geographic Epicenter: Bengaluru saw the highest impact, contributing 33.18% of t
 <img width="1907" height="920" alt="image" src="https://github.com/Lakshmi-799/QuickBite-Express-Crisis-Impact-and-Recovery-Analysis/blob/main/home.png" />
 
 **Page 2: Executive Summary**
-- KPI cards: Total orders, revenue, rating, cancellations
-- Key metrics highlighted
-- Monthly revenue trend
-- Order volume comparison
+- KPI cards: Total orders, Avg Delivery Time, Avg rating, cancellations, Drop%
+- Revenue by months and Crisis
+- Total Orders by Crisis Phase
+- Total oders and cancellation rate by month
 - Top affected cities
 - Revenue breakdown by component
-<img width="1917" height="922" alt="image" src="https://github.com/user-attachments/assets/abf48957-22a2-447c-a826-74ab4400b5e2" />
+<img width="1917" height="922" alt="image" src="https://github.com/Lakshmi-799/QuickBite-Express-Crisis-Impact-and-Recovery-Analysis/blob/main/businessOverview.png" />
 
 
 
 **Page 3: Customer Impact Analysis**
 - Customer segmentation donut
 - City distribution
-- Customer status breakdown
+- Dropped Customers in city level
 - High-value customer impact
-  <img width="1916" height="926" alt="image" src="https://github.com/user-attachments/assets/20d06770-f9fb-4770-be9c-6dfc03b8a69e" />
+  <img width="1916" height="926" alt="image" src="https://github.com/Lakshmi-799/QuickBite-Express-Crisis-Impact-and-Recovery-Analysis/blob/main/customer%20analysis.png" />
 
 
-**Page 4: Top 5% Spent Customer Impact**
-- VIP customer metrics
-- Order frequency trends
-- Geographic and cuisine preferences
-- Monthly spending patterns
-  <img width="1918" height="925" alt="image" src="https://github.com/user-attachments/assets/2b923064-638f-472a-bce9-e7273809904e" />
-
-
-**Page 5: Operational Performance**
-- SLA compliance trends
-- Delivery time analysis
-- Cancellation rates by city/vehicle
+**Page 5: Operational Insights**
+- SLA compliance trends in monthly
+- Cancellation Rate and Total orders in Cities
+- SLA Compalince by vehicle type
+- Cancellation rates by city
 - Monthly operational metrics table
-  <img width="1920" height="912" alt="image" src="https://github.com/user-attachments/assets/79b4a10b-d99a-4bd5-a44f-90b9588c658c" />
+  <img width="1920" height="912" alt="image" src="https://github.com/Lakshmi-799/QuickBite-Express-Crisis-Impact-and-Recovery-Analysis/blob/main/Delivery.png" />
 
 
 **Page 6: Restaurant Partnership Analysis**
-- Partner count by city
-- Restaurant retention rates
-- Cuisine-wise order comparison
+- Pre Crisis and Crisis customers by Cuisine type
+- Cancellation rate by Restaurant 
+- Top and bottom Restaurant by orders
 - Restaurant risk categorization
-  <img width="1916" height="906" alt="image" src="https://github.com/user-attachments/assets/dc7cb11b-d097-45a2-a01b-80e93212efac" />
+- Active and Dropped Customers by City
+  <img width="1916" height="906" alt="image" src="https://github.com/Lakshmi-799/QuickBite-Express-Crisis-Impact-and-Recovery-Analysis/blob/main/Patnership.png" />
+
+
+**Page 7: Customer Sentiment Analysis**
+- Average Rating by Month
+- Review volume timeline
+- Negative reviews
+- Top Restaurant Rating and Reviews
+<img width="1915" height="923" alt="image" src="https://github.com/Lakshmi-799/QuickBite-Express-Crisis-Impact-and-Recovery-Analysis/blob/main/Reviews%26rating.png" />
