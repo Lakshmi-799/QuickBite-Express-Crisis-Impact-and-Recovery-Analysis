@@ -204,7 +204,7 @@ Geographic Epicenter: Bengaluru saw the highest impact, contributing 33.18% of t
   <img width="1916" height="926" alt="image" src="https://github.com/Lakshmi-799/QuickBite-Express-Crisis-Impact-and-Recovery-Analysis/blob/main/customer%20analysis.png" />
 
 
-**Page 5: Operational Insights**
+**Page 4: Operational Insights**
 - SLA compliance trends in monthly
 - Cancellation Rate and Total orders in Cities
 - SLA Compalince by vehicle type
@@ -213,7 +213,7 @@ Geographic Epicenter: Bengaluru saw the highest impact, contributing 33.18% of t
   <img width="1920" height="912" alt="image" src="https://github.com/Lakshmi-799/QuickBite-Express-Crisis-Impact-and-Recovery-Analysis/blob/main/Delivery.png" />
 
 
-**Page 6: Restaurant Partnership Analysis**
+**Page 5: Restaurant Partnership Analysis**
 - Pre Crisis and Crisis customers by Cuisine type
 - Cancellation rate by Restaurant 
 - Top and bottom Restaurant by orders
@@ -222,9 +222,17 @@ Geographic Epicenter: Bengaluru saw the highest impact, contributing 33.18% of t
   <img width="1916" height="906" alt="image" src="https://github.com/Lakshmi-799/QuickBite-Express-Crisis-Impact-and-Recovery-Analysis/blob/main/Patnership.png" />
 
 
-**Page 7: Customer Sentiment Analysis**
+**Page 6: Customer Sentiment Analysis**
 - Average Rating by Month
 - Review volume timeline
 - Negative reviews
 - Top Restaurant Rating and Reviews
 <img width="1915" height="923" alt="image" src="https://github.com/Lakshmi-799/QuickBite-Express-Crisis-Impact-and-Recovery-Analysis/blob/main/Reviews%26rating.png" />
+
+
+---
+### 🧭 Conclusion
+
+The QuickBite crisis was not caused by market competition but by **operational inefficiencies and trust loss**.
+Recovery must focus on **reliability, hygiene transparency, and customer-centric communication**.
+By rebuilding loyalty and leveraging Power BI for continuous monitoring, QuickBite can move confidently **from Crisis to Comeback**.
