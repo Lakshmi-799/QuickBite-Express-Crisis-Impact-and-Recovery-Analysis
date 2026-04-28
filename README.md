@@ -15,8 +15,6 @@ and evidence-based recovery strategy.**
 5. Key Findings
 6. Recommendations
 7. Technical Implementation
-8. Deliverables
-9. Sources & References
 10. How to Explore
 ## 🎯 Project Overview
 
